@@ -100,6 +100,40 @@ img {
     margin: 10px;
 }
 
+.mySlides {
+    margin: 0 auto;
+}
+
+.slider{
+    text-align: center
+}
+
+.w3-display-left{
+    position:absolute;
+    top:50%;left:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(-0%,-50%);
+}
+
+.w3-display-right{
+    position:absolute;
+    top:50%;
+    right:0%;
+    transform:translate(0%,-50%);
+    -ms-transform:translate(0%,-50%);
+}
+
+.w3-black,.w3-hover-black:hover{
+    border-radius: 50%;
+    color:#f2c300!important;
+    background-color:#fff!important;
+    opacity: .8;    
+}
+
+.w3-button{
+    border:none;
+    padding:10px 15px;
+}
 /* Produtos*/
 
 .produtos {
