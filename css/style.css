@@ -173,22 +173,28 @@ img {
 
 /* Banner*/
 
-.potencialidades{
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url("../img/banner.png");
-    max-width: 960px;
-    height: 233px;
-   
-}
-
-.potencialidades h1{
-    text-align: center;
-    flex: 2 1 300px;
+.laranja{
     color: #f89c00;
 }
 
+.marrom{
+    color: #2e2100;
+}
+
+.banner{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.laranja h1{
+    padding-bottom: 50px;
+}
 /* Produtos*/
 
 .produtos {
