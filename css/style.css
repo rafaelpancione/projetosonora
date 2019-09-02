@@ -145,11 +145,12 @@ img {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .problema-1{
     flex: 2 1 300px;/* flex bases 300, tamanho minimo da imagem para quebrar, sem isso a imagem fica minuscula*/
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .problema-1 h1{
@@ -169,6 +170,25 @@ img {
     text-align: right;
     font-size: 100px;
 }
+
+/* Banner*/
+
+.potencialidades{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../img/banner.png");
+    max-width: 960px;
+    height: 233px;
+   
+}
+
+.potencialidades h1{
+    text-align: center;
+    flex: 2 1 300px;
+    color: #f89c00;
+}
+
 /* Produtos*/
 
 .produtos {
