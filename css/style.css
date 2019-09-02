@@ -193,50 +193,37 @@ img {
 }
 
 .laranja h1{
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
+
+.pad{
+    padding-top: 50px;
+}
+
 /* Produtos*/
 
 .produtos {
     max-width: 960px;
-    margin: 60px auto;
+    margin: 50px auto;
 }
 
 .produtos h1{
-    font-size: 3em;
-    margin: 0 10px 60px 10px;
+    font-size: 36px;
+    text-align: center;
 }
 
 .produtos-container{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
-.produtos-item{
-    flex: 1 1 175px;
-    margin: 10px;
-}
-
-.produtos-item h2 {
-    font-size: 3em;
-    color: #a4a4a4;
-    background: #f7f7f7;
-    padding: 60px 20px;
-}
-
-.purple{
-    border-top: 8px solid #ae81ff; 
-}
-
-
-.pink{
-    border-top: 8px solid #f9265e; 
-}
-
-
-.blue{
-    border-top: 8px solid #66d9eb; 
+.equipe{
+    display: flex;
+    text-align: center;
+    padding: 20px 40px; 
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Preços */
