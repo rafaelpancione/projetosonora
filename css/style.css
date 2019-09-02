@@ -80,7 +80,6 @@ img {
 
 .sobre-info{
     flex: 2 1 300px;/* flex bases 300, tamanho minimo da imagem para quebrar, sem isso a imagem fica minuscula*/
-    margin: 0 10px;
 }
 
 .sobre-info h1{
@@ -92,7 +91,6 @@ img {
 .sobre-info p {
     font-size: 1.25em;
     line-height: 1.4;
-    margin-bottom: 1em;
 }
 
 .sobre-img{
@@ -110,6 +108,7 @@ img {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .btn-esquerda{
@@ -124,11 +123,15 @@ img {
    justify-content: center;;
 }
 
-.w3-black,.w3-hover-black:hover{
+.w3-black{
     border-radius: 50%;
-    color:#f2c300!important;
-    background-color:#fff!important;
+    color:#f2c300;
+    background-color:#fff;
     opacity: .8;    
+}
+
+.w3-black:hover{
+    background-color:#2e2100;      
 }
 
 .w3-button{
@@ -136,6 +139,36 @@ img {
     padding:10px 15px;
 }
 
+/*Problema*/
+.problema{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.problema-1{
+    flex: 2 1 300px;/* flex bases 300, tamanho minimo da imagem para quebrar, sem isso a imagem fica minuscula*/
+    margin: 0 10px;
+}
+
+.problema-1 h1{
+    font-size: 36px;
+}
+
+.problema-1 p {
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
+.problema-1 h1{
+    text-align: center;
+}
+
+.problema-50 h1{
+    text-align: right;
+    font-size: 100px;
+}
 /* Produtos*/
 
 .produtos {
