@@ -30,6 +30,10 @@ img {
 
 /* Menu */
 
+.menu-bg{
+    background: #2e2100;
+}
+
 .menu{
     max-width: 960px;
     margin: 0 auto;
@@ -83,6 +87,7 @@ img {
 }
 
 .sobre-info h1{
+    font-family: Impact;
     font-size: 36px;
     margin-bottom: .2em;
     text-align: center;
@@ -155,6 +160,7 @@ img {
 
 .problema-1 h1{
     font-size: 36px;
+    font-family: Impact;
 }
 
 .problema-1 p {
@@ -219,6 +225,9 @@ img {
     padding: 20px 40px; 
 }
 
+.produtos h1{
+    font-family: Impact;
+}
 .equipe{
     display: flex;
     text-align: center;
@@ -231,6 +240,9 @@ img {
  border: none;
 }
 
+#download{
+    font-family: Impact;
+}
 .sobre-info h2{
     margin: 40px;
     text-align: center;
