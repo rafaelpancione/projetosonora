@@ -92,33 +92,25 @@ img {
 }
 
 .slider{
-    max-width: 960px;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 20px;
 }
 
-.btn-esquerda{
+.btn{
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
 
-.btn-direita{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;;
-}
-
-.w3-black{
+.btn-circle{
     border-radius: 50%;
     color:#f2c300;
     background-color:#fff;
     opacity: .8;    
 }
 
-.w3-black:hover{
+.btn-circle:hover{
     background-color:#2e2100;      
 }
 
