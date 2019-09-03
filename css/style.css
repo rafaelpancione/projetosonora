@@ -167,33 +167,26 @@ img {
     font-size: 36px;
 }
 
-/* Produtos*/
+/* SOLUÇÃO PROPOSTA*/
 
-.produtos {
-    max-width: 960px;
-    margin: 50px auto;
+.solucao{
+    padding: 20px;
 }
 
-.produtos h1{
-    font-size: 36px;
-    text-align: center;
-}
+/* EQUIPE*/
 
-.produtos-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px 40px; 
-}
-
-.produtos h1{
-    font-family: Impact;
-}
 .equipe{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.integrantes{
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
+    padding: 0px 0px 40px;
 }
 
 .download{
