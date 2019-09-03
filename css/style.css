@@ -36,7 +36,7 @@ img {
 .titulo{
     text-align: center;
     padding-bottom: 20px;
-    font-family: Impact;
+    font-family: 'Passion One', cursive;
     font-size: 36px;
 }
 
@@ -65,9 +65,10 @@ img {
 }
 
 .menu a{
-    font-size: 1.25em;
+    font-family: 'Passion One', cursive; 
+    font-size: 1.4em;
     color: white;
-    padding: 10px 20px;;
+    padding: 10px 10px;
 }
 
 .menu a:hover{
@@ -90,15 +91,19 @@ img {
 /* RESUMO */
 
 .resumo{
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 /*SLIDER*/
 
+.mySlides{
+    width:80%
+}
+
 .slider{
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+   
 }
 
 .btn{
@@ -126,7 +131,7 @@ img {
 /*PROBLEMA*/
 
 .problema{
-    padding: 20px;
+   
     display: flex;
     flex-wrap: wrap;
 }
@@ -207,7 +212,7 @@ img {
 /* FINAL */
 
 .final{
-    padding-bottom: 20px;
+    padding: 0px 20px;
 }
 
 /* CONTATO */
@@ -232,7 +237,24 @@ img {
     color: #fff;
 }
 
+/* RESPONSIVO */
 
+@media only screen and (max-width: 767px){
+    
+    .titulo-50{
+    font-family: Impact;
+    text-align: center;
+    font-size: 100px;
+}
+ 
+    /*SLIDER*/
 
-
+.btn{
+   display: none;
+}  
+    .mySlides{
+    width:100%;
+}
+  
+}
 
