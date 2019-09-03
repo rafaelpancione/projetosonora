@@ -33,6 +33,18 @@ img {
     margin: 0 auto;
 }
 
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Impact;
+    font-size: 36px;
+}
+
+.texto{
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
 /* MENU */
 .menu{
     display: flex;
@@ -67,34 +79,12 @@ img {
     flex-direction: column;
 }
 
-.sobre{
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+/* RESUMO */
+
+.resumo{
+    padding: 20px;
 }
 
-.sobre-info{
-    flex: 2 1 300px;/* flex bases 300, tamanho minimo da imagem para quebrar, sem isso a imagem fica minuscula*/
-}
-
-.sobre-info h1{
-    font-family: Impact;
-    font-size: 36px;
-    margin-bottom: .2em;
-    text-align: center;
-}
-
-.sobre-info p {
-    font-size: 1.25em;
-    line-height: 1.4;
-    padding: 0 20px;
-}
-
-.sobre-img{
-    flex: 1 1 160px;
-    margin: 10px;
-}
 
 /*slider*/
 .mySlides {
