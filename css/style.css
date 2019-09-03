@@ -249,22 +249,6 @@ img {
     text-align: center;
 }
 
-
-@media (max-width: 800px){/* padding para responsivo*/
-    .preco{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .preco .preco-item:nth-child(3){
-        order: -2;
-    }
-    .preco .preco-item:nth-child(2){
-        order: -1;
-    }
-}
-
-
-
 /* footer */
 
 
