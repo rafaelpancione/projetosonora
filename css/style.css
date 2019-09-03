@@ -189,21 +189,35 @@ img {
     padding: 0px 0px 40px;
 }
 
+/* DOWNLOAD*/
+
+.download-texto{
+    padding: 0px 20px;
+}
+
+.btn-download{
+    text-align: center;
+    padding: 20px;
+}
 .download{
  background: none;
  border: none;
 }
 
-#download{
-    font-family: Impact;
+/* FINAL */
+
+.final{
+    padding: 20px;
 }
-.sobre-info h2{
-    margin: 40px;
+
+/* CONTATO */
+
+.contato{
     text-align: center;
+    padding: 20px;
 }
 
 /* footer */
-
 
 .footer{
     display: flex;
