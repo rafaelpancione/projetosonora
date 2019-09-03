@@ -45,6 +45,14 @@ img {
     line-height: 1.4;
 }
 
+.laranja{
+    color: #f89c00;
+}
+
+.marrom{
+    color: #2e2100;
+}
+
 /* MENU */
 .menu{
     display: flex;
@@ -85,11 +93,7 @@ img {
     padding: 20px;
 }
 
-
-/*slider*/
-.mySlides {
-    margin: 0 auto;
-}
+/*SLIDER*/
 
 .slider{
     display: flex;
@@ -114,71 +118,53 @@ img {
     background-color:#2e2100;      
 }
 
-.w3-button{
+.btn-button{
     border:none;
     padding:10px 15px;
 }
 
-/*Problema*/
+/*PROBLEMA*/
+
 .problema{
-    max-width: 960px;
-    margin: 0 auto;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
 }
 
-.problema-1{
-    flex: 2 1 300px;/* flex bases 300, tamanho minimo da imagem para quebrar, sem isso a imagem fica minuscula*/
-    margin: 0 20px;
+.prob{
+   flex: 1 300px;
+   padding: 20px; 
 }
 
-.problema-1 h1{
-    font-size: 36px;
+.titulo-50{
     font-family: Impact;
-}
-
-.problema-1 p {
-    font-size: 1.25em;
-    line-height: 1.4;
-}
-
-.problema-1 h1{
-    text-align: center;
-}
-
-.problema-50 h1{
     text-align: right;
     font-size: 100px;
 }
 
-/* Banner*/
+/* POTENCIALIDADES*/
 
-.laranja{
-    color: #f89c00;
-}
-
-.marrom{
-    color: #2e2100;
-}
-
-.banner{
+.potencialidades{
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px 0;
+    padding: 20px;
 }
 
-.center-text{
-    text-align: center;
+.potenciais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.laranja h1{
-    padding-bottom: 40px;
+.area{
+   text-align: center; 
+   padding: 0px 50px;
 }
 
-.pad{
-    padding-top: 50px;
+.area h1{
+    font-family: impact;
+    font-size: 36px;
 }
 
 /* Produtos*/
