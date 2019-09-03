@@ -33,7 +33,7 @@ img {
     margin: 0 auto;
 }
 
-/* Menu */
+/* MENU */
 .menu{
     display: flex;
     justify-content: center;
@@ -47,26 +47,24 @@ img {
 .menu a{
     font-size: 1.25em;
     color: white;
-    padding: 20px;
+    padding: 10px 20px;;
 }
 
 .menu a:hover{
     color: #f89c00;
 }
 
+/* INTRO */
 
-
-/* Introducao */
-.introducao{
-    max-width: 400px;
-    margin: 0 auto;
+.intro{
     padding: 20px;
 }
 
-.subtitulo{
+.logo{
+    display: flex;
     text-align: center;
-    margin: 0 auto;
-    padding: 0px 0px 60px 0px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .sobre{
