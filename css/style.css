@@ -100,10 +100,6 @@ img {
 
 /*SLIDER*/
 
-.mySlides{
-    width:80%
-}
-
 .slider{
     display: flex;
     flex-wrap: wrap;
@@ -256,9 +252,6 @@ img {
 .btn{
    display: none;
 }  
-    .mySlides{
-   
-}
-  
+ 
 }
 
