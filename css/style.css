@@ -194,6 +194,15 @@ img {
     padding: 0px 0px 40px;
 }
 
+.redes-sociais{
+    display: flex;
+}
+
+.redes-sociais a{
+    padding: 10px;
+    color: white;
+}
+
 /* DOWNLOAD*/
 
 .download-texto{
