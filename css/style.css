@@ -12,7 +12,7 @@ body {
 	font-family: Arial;
 	color: white;
     background-color: #f2c300; 
-    background-image: linear-gradient(#f2c300, #ff7900);
+    background-image: linear-gradient(#f2c300, #ff7900); 
 }
 
 ul {
@@ -178,6 +178,29 @@ img {
     padding: 20px;
 }
 
+/*EVENTOS*/
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+    margin: 20px 0;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
 /* EQUIPE*/
 
 .equipe{
@@ -263,4 +286,5 @@ img {
 }  
  
 }
+
 
