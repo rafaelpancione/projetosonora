@@ -260,7 +260,8 @@ img {
     display: flex;
     height: 50px;
     background: #2e2100;
-    align-items: center;    
+    align-items: center;   
+    margin-top: 20px;
 }
 
 .footer p{
