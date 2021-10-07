@@ -10,8 +10,7 @@ body, h1,h2,p,ul,li,a {
 
 body {
 	font-family: Arial;
-	color: white;
-    background-color: #f2c300; 
+	color: black;
     background-image: linear-gradient(#f2c300, #ff7900); 
 }
 
@@ -24,7 +23,7 @@ a {
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 img {
@@ -60,18 +59,24 @@ img {
 /* MENU */
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
 .menu-bg{
-    background: #2e2100;
+    background: white;
 }
 
 .menu a{
     font-family: 'Passion One', cursive; 
     font-size: 1.4em;
-    color: white;
+    color: black;
     padding: 10px 10px;
 }
 
