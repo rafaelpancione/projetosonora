@@ -4,6 +4,4 @@
 
 ----------
 
-O projeto pode ser acessado no link abaixo:
 
-http://projetosonora.co/
