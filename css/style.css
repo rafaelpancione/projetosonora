@@ -57,20 +57,25 @@ img {
 }
 
 /* MENU */
+.menu-bg{
+    background: white;
+}
+
 .menu{
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-nav{
+    display: flex;
 }
 
 .logo-menu{
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-}
-
-.menu-bg{
-    background: white;
 }
 
 .menu a{
