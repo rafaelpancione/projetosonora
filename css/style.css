@@ -72,6 +72,7 @@ img {
 
 .menu-nav{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu-logo{
@@ -95,19 +96,13 @@ img {
 /* INTRO */
 .intro{
     display: flex;
-    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .logo{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.playstore{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding: 20px;
 }
 
 .banner-top{
@@ -223,45 +218,6 @@ img {
   padding: 0px 20px;
 }
 
-/* EQUIPE*/
-
-.equipe{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.integrantes{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 0px 40px;
-}
-
-.redes-sociais{
-    display: flex;
-}
-
-.redes-sociais a{
-    padding: 10px;
-    color: white;
-}
-
-/* DOWNLOAD*/
-
-.download-texto{
-    padding: 0px 20px;
-}
-
-.btn-download{
-    text-align: center;
-    padding: 20px;
-}
-.download{
- background: none;
- border: none;
-}
 
 /* FINAL */
 
@@ -269,6 +225,12 @@ img {
     padding: 0px 20px 20px 20px;
 }
 
+.logo-sinapse{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
 /* CONTATO */
 
 .contato{
