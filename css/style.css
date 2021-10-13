@@ -135,10 +135,11 @@ img {
 
 /*SLIDER*/
 
+
 .slider{
     display: flex;
     flex-wrap: wrap;
-   
+   padding-top: 20px;
 }
 
 .btn{
@@ -149,13 +150,13 @@ img {
 
 .btn-circle{
     border-radius: 50%;
-    color:#f2c300;
-    background-color:#fff;
-    opacity: .8;    
+    color:black;
+    background: color #000;
+    opacity: .9;    
 }
 
 .btn-circle:hover{
-    background-color:#2e2100;      
+    background-color:#f89c00;      
 }
 
 .btn-button{
@@ -234,10 +235,22 @@ img {
 /* CONTATO */
 
 .contato{
-    text-align: center;
-    padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
 }
 
+.cont{
+   flex: 1 300px;
+   padding: 20px; 
+}
+
+.cont h1{
+    text-align: center;
+}
+
+.cont p{
+    padding: 10px 0px 10px 0px;
+}
 /* footer */
 
 .footer{
