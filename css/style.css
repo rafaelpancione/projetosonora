@@ -104,19 +104,28 @@ img {
     flex-direction: column;
 }
 
-.banner-top{
-    display: flex;
-    background-image: url(../img/banner-sonora.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .playstore{
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
+
+.banner-top{
+    background: url(../img/banner-sonora.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
 
 /* RESUMO */
 
