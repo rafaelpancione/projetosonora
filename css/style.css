@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/bignoodletitling');
 /* -- reset -- */
 * {
 	box-sizing: border-box;
@@ -40,21 +41,13 @@ img {
 .titulo{
     text-align: center;
     padding-bottom: 20px;
-    font-family: 'Passion One', cursive;
-    font-size: 36px;
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-size: 50px;
 }
 
 .texto{
     font-size: 1.25em;
     line-height: 1.4;
-}
-
-.laranja{
-    color: #f89c00;
-}
-
-.marrom{
-    color: #2e2100;
 }
 
 /* MENU */
@@ -83,14 +76,14 @@ img {
 }
 
 .menu a{
-    font-family: 'Passion One', cursive; 
-    font-size: 1.4em;
+    font-family: 'BigNoodleTitling', sans-serif;
+    font-size: 30px;
     color: black;
     padding: 10px 10px;
 }
 
 .menu a:hover{
-    color: #f89c00;
+    color: #ffc82f;
 }
 
 /* INTRO */
@@ -139,7 +132,8 @@ img {
 .slider{
     display: flex;
     flex-wrap: wrap;
-   padding-top: 20px;
+    padding-top: 40px;
+    justify-content: center;
 }
 
 .btn{
@@ -151,17 +145,49 @@ img {
 .btn-circle{
     border-radius: 50%;
     color:black;
-    background: color #000;
+    background: color #ffff;
     opacity: .9;    
 }
 
 .btn-circle:hover{
-    background-color:#f89c00;      
+    background-color:#0086A7;      
 }
 
 .btn-button{
     border:none;
     padding:10px 15px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  min-height: 100px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 134, 167, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 134, 167, 0.4);
+  transform: scale(1.01);
+}
+
+.card__title {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-style: italic;
+}
+
+.autor{
+    text-align: right;
+   
 }
 
 /*PROBLEMA*/
@@ -188,7 +214,7 @@ img {
 /*EVENTOS*/
 
 .diagonal-box {
-	background-image: linear-gradient(45deg, #FFC82F, #FFC82F);
+	background-image: linear-gradient(45deg, #ffc82f, #ffc82f);
 	transform: skewY(-5deg);
 }
 
@@ -241,7 +267,6 @@ img {
 
 .cont{
    flex: 1 300px;
-   padding: 20px; 
 }
 
 .cont h1{
@@ -255,7 +280,7 @@ img {
 .btn-enviar {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #0086A7;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -291,18 +316,17 @@ img {
     right: 0;
   }
 
-  .btn-enviar a{
-     
+  .btn-enviar a{ 
       color: #fff;
+      font-style: normal;
   }
 /* footer */
 
 .footer{
     display: flex;
     height: 50px;
-    background: #2e2100;
+    background: #0086A7;
     align-items: center;   
-    margin-top: 20px;
 }
 
 .footer p{
